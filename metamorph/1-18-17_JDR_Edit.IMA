@@ -1,0 +1,54 @@
+"Integrated Morphometry State File", Version 7.6
+TRUE, FALSE
+49, 1, 1, 1, 1, 10, 1, "Pixel area", 1, "Pixel area", 1, "Pixel area", FALSE
+"NPTE X                                                                                                                    ", "HNTO XXXXXX", ""
+FALSE, 3, 3, 3, 1, TRUE, FALSE, FALSE, FALSE, TRUE, FALSE, FALSE, TRUE, TRUE, FALSE, FALSE, FALSE, TRUE, 1, 1, 255, 1
+"Total area", FALSE, FALSE, FALSE, 4, 0, 0, 1e+008
+"Pixel area", TRUE, TRUE, TRUE, 4, 0, 8, 80
+"Area", TRUE, FALSE, FALSE, 4, 0, 12, 80
+"Hole area", FALSE, FALSE, FALSE, 4, 0, 0, 1e+008
+"Relative hole area", FALSE, FALSE, FALSE, 4, 0, 0, 1
+"Standard area count", FALSE, FALSE, FALSE, 4, 0, 0, 32767
+"Perimeter", FALSE, FALSE, FALSE, 4, 0, 0, 1e+006
+"Centroid X", TRUE, FALSE, FALSE, 4, 0, 0, 1e+006
+"Centroid Y", TRUE, FALSE, FALSE, 4, 0, 0, 1e+006
+"Z-Position", FALSE, FALSE, FALSE, 4, 0, 0, 1e+006
+"Width", FALSE, FALSE, FALSE, 4, 0, 0, 1e+006
+"Height", FALSE, FALSE, FALSE, 4, 0, 0, 1e+006
+"Orientation", TRUE, FALSE, FALSE, 4, 0, -90, 90
+"Length", TRUE, FALSE, FALSE, 4, 0, 0, 1e+006
+"Breadth", TRUE, FALSE, FALSE, 4, 0, 0, 1e+006
+"Fiber length", FALSE, FALSE, FALSE, 4, 0, 0, 1e+006
+"Fiber breadth", FALSE, FALSE, FALSE, 4, 0, 0, 1e+006
+"Shape factor", TRUE, FALSE, FALSE, 4, 0, 0, 1
+"Ell. form factor", FALSE, FALSE, FALSE, 4, 0, 0, 10000
+"Inner radius", FALSE, FALSE, FALSE, 4, 0, 0, 1e+006
+"Outer radius", FALSE, FALSE, FALSE, 4, 0, 0, 1e+006
+"Mean radius", FALSE, FALSE, FALSE, 4, 0, 0, 1e+006
+"Equiv. radius", FALSE, FALSE, FALSE, 4, 0, 0, 1e+006
+"Equiv. sphere vol.", FALSE, FALSE, FALSE, 4, 0, 0, 1e+006
+"Equiv. prolate vol.", FALSE, FALSE, FALSE, 4, 0, 0, 1e+006
+"Equiv. oblate vol.", FALSE, FALSE, FALSE, 4, 0, 0, 1e+006
+"Equiv. sphere surface area", FALSE, FALSE, FALSE, 4, 0, 0, 1e+006
+"Average intensity", TRUE, FALSE, FALSE, 4, 0, 0, 1e+008
+"Total intensity", TRUE, FALSE, FALSE, 4, 0, 0, 1e+008
+"Optical density", FALSE, FALSE, FALSE, 4, 0, 0, 1e+008
+"Integrated OD", FALSE, FALSE, FALSE, 4, 0, 0, 1e+008
+"Intensity center X", FALSE, FALSE, FALSE, 4, 0, 0, 1e+006
+"Intensity center Y", FALSE, FALSE, FALSE, 4, 0, 0, 1e+006
+"Radial dispersion", FALSE, FALSE, FALSE, 4, 0, 0, 1e+006
+"Texture Difference Moment", FALSE, FALSE, FALSE, 4, 0, 0, 49
+"Texture Inverse Difference Moment", FALSE, FALSE, FALSE, 4, 0, 0, 1
+"OD Variance", FALSE, FALSE, FALSE, 4, 0, 0, 1
+"OD Relative Low Area", FALSE, FALSE, FALSE, 4, 0, 0, 1
+"OD Relative Medium Area", FALSE, FALSE, FALSE, 4, 0, 0, 1
+"OD Relative High Area", FALSE, FALSE, FALSE, 4, 0, 0, 1
+"OD Relative Low Amount", FALSE, FALSE, FALSE, 4, 0, 0, 1
+"OD Relative Medium Amount", FALSE, FALSE, FALSE, 4, 0, 0, 1
+"OD Relative High Amount", FALSE, FALSE, FALSE, 4, 0, 0, 1
+"OD Relative Low Distance", FALSE, FALSE, FALSE, 4, 0, 0, 2
+"OD Relative Medium Distance", FALSE, FALSE, FALSE, 4, 0, 0, 2
+"OD Relative High Distance", FALSE, FALSE, FALSE, 4, 0, 0, 2
+"Minimum intensity", FALSE, FALSE, FALSE, 4, 0, 0, 1e+008
+"Maximum intensity", FALSE, FALSE, FALSE, 4, 0, 0, 1e+008
+"Intensity Std. Dev.", FALSE, FALSE, FALSE, 4, 0, 0, 1e+008
