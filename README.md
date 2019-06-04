@@ -5,9 +5,9 @@ VVVV
 ## Installation
 Clone this repository by running:
 
-'''
+```
 git clone https://github.com/thayerlab/ASIA-pipelines.git
-'''
+```
 
 You can download example datasets (here)[https://drive.google.com/drive/u/0/folders/1cvp9BJBP7wS6xC2l9PYFGajeoDADxxNp]
 
