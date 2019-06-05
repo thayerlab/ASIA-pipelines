@@ -85,7 +85,7 @@ reader.close()
 log('Found {} series'.format(seriesCount))
 
 outfile = os.path.join(outdir,'results.csv')
-h = 'Name,path,Rarea,Rmean,Rstd,Garea,Gmean,Gstd,GQarea,GQmean,GQintden,GQstd,nPunctae,RMregions,maxxxxx'
+h = 'Name,path,Rarea,Rmean,Rstd,Garea,Gmean,Gstd,GQarea,GQmean,GQintden,GQstd,nPunctae,RMregions,maxp,extravar'
 with open(outfile,'a') as of:
 		of.write(h+'\n')
 
@@ -205,14 +205,14 @@ for impi in range(seriesCount):
 
 	#analyzing particles from non inverted mask
 	mask_labeling = ops.labeling().cca(particlemask,StructuringElement.EIGHT_CONNECTED)	
-	maxxxxp = 0
+	maxp = 0
 	labelingIndex=mask_labeling.getIndexImg()
-	regionsxx=LabelRegions(mask_labeling)
-	region_labels = list(regionsxx.getExistingLabels())
-	for region in regionsxx:
-			regionsssss=region.size()
-			if regionsssss>maxxxxp:
-				maxxxxp = int(regionsssss)
+	regionsx=LabelRegions(mask_labeling)
+	region_labels = list(regionsx.getExistingLabels())
+	for region in regionsx:
+			regionsp=region.size()
+			if regionsp>maxp:
+				maxp = int(regionsp)
 	extravar = 10
 	log('Number of particles from mask is :{}'.format(len(region_labels)))
 	
@@ -228,8 +228,8 @@ for impi in range(seriesCount):
 	GQstd = ops.stats().stdDev(Regions.sample(Regions.iterable(green_mask_new),green_mip))
 	RMregions= len(region_labels)
 
-	h = 'Name,path,Rarea,Rmean,Rstd,Garea,Gmean,Gstd,GQarea,GQmean,GQintden,GQstd,nPunctae,RMregions,maxxxxx'
-	s = str([Name,path,Rarea,Rmean,Rstd,Garea,Gmean,Gstd,GQarea,GQmean,GQintden,GQstd,nPunctae,RMregions,maxxxxp, extravar])
+	h = 'Name,path,Rarea,Rmean,Rstd,Garea,Gmean,Gstd,GQarea,GQmean,GQintden,GQstd,nPunctae,RMregions,maxp,extravar'
+	s = str([Name,path,Rarea,Rmean,Rstd,Garea,Gmean,Gstd,GQarea,GQmean,GQintden,GQstd,nPunctae,RMregions,maxp,extravar])
 	
 	#outfile = os.path.join(outdir,'{}_{}_results.csv'.format(path.replace('\\','__').replace('/','__').replace(':','_'),Name))
 	# outfile = os.path.join(outdir,'{}_{}_results.csv'.format(parent,Name))
