@@ -13,8 +13,7 @@ CellProfiler- Two pipelines are provided for CellProfiler
           
 - The second pipeline called "AnalyzePunctaAndParticles" analyzes puncta and the cell death marker from the MIP images as described in Green et al., (TBD).
 
-MetaMorph- Two files are provided to run in MetaMorph
-          - The first file "?????" determines the puncta size and can be used to call the second file 
+MetaMorph- Three files are provided to run in MetaMorph that are all used in conjunction to analyze puncta. The steps for setting up these files to run the journal are described below. 
 
 
 ## Installation
@@ -51,7 +50,11 @@ These were tested with CellProfiler, version 3.1.5
 
 ### MetaMorph
 
-These were tested with MetaMorph ????
+These were tested with MetaMorph version 7.10.0.119
 
-  1. ????
-  2. ?????
+  1. Create folder on Desktop that will contain the input and output images
+  2. In MetaMorph, edit the journal "Loop-for-JOBS_Puncta-Sizes.JNL"
+          - Under "Loop for all Images in Directory" make sure to input appropriate Directory path for input images location
+          - Under "Loop for all Images in Directory" select "Puncta-Count-for-JOBS" as journal
+          - Make sure the "Integrated Morphometry- Load State" step is calling the "IMA_File.IMA"
+  3. Run journal
