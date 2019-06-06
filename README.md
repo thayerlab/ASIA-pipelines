@@ -2,12 +2,16 @@
 ASIA analysis is designed to detect and count the number of synapses (or puncta) in virally transduced fluorescently-labeled live neurons as documented in Green et al., (TBD). The analysis is built in three software, Fiji, MetaMorph, and CellProfiler as outlined below. Images can be collected with either confocal or widefield microscopy, with widefield needing a deconvolution step in the analysis. A script for batch deconvolution of widefield images is provided for use in Fiji. After deconvolution, widefield images can be processed for puncta in Fiji, CellProfiler, or MetaMorph.  
 
 Fiji- Two scripts are provided to run in Fiji
-          - The first script labeled "DeconExhaustivetoSingleFile" is to run batch deconvolution of widefield images
-          - The second script labeled "PunctaAnalysis" is to analyze puncta and the cell death marker as described in Green et al., (TBD). This can be used for either deconvolved widefield images, or confocal images, though the exact parameters in the script may need to be changed (see Green et al., (TBD)). 
+          
+- The first script labeled "DeconExhaustivetoSingleFile" is to run batch deconvolution of widefield images
+         
+ - The second script labeled "PunctaAnalysis" is to analyze puncta and the cell death marker as described in Green et al., (TBD). This can be used for either deconvolved widefield images, or confocal images, though the exact parameters in the script may need to be changed (see Green et al., (TBD)). 
 
 CellProfiler- Two pipelines are provided for CellProfiler
-          - The first pipeline labeled "MakeMIP(redandgreen)" is to create Maximum Intensity Projection (MIP) images and to save them as tif files to run in the second pipeline. It is currently set up to take .nd2 files but can be changed to accept other file types.
-          - The second pipeline called "AnalyzePunctaAndParticles" analyzes puncta and the cell death marker from the MIP images as described in Green et al., (TBD).
+          
+- The first pipeline labeled "MakeMIP(redandgreen)" is to create Maximum Intensity Projection (MIP) images and to save them as tif files to run in the second pipeline. It is currently set up to take .nd2 files but can be changed to accept other file types.
+          
+- The second pipeline called "AnalyzePunctaAndParticles" analyzes puncta and the cell death marker from the MIP images as described in Green et al., (TBD).
 
 MetaMorph- Two files are provided to run in MetaMorph
           - The first file "?????" determines the puncta size and can be used to call the second file 
