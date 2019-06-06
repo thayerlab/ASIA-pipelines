@@ -54,7 +54,11 @@ These were tested with MetaMorph version 7.10.0.119
 
   1. Create folder on Desktop that will contain the input and output images
   2. In MetaMorph, edit the journal "Loop-for-JOBS_Puncta-Sizes.JNL"
-          - Under "Loop for all Images in Directory" make sure to input appropriate Directory path for input images location
-          - Under "Loop for all Images in Directory" select "Puncta-Count-for-JOBS" as journal
-          - Make sure the "Integrated Morphometry- Load State" step is calling the "IMA_File.IMA"
+         
+- Under "Loop for all Images in Directory" make sure to input appropriate Directory path for input images location
+          
+- Under "Loop for all Images in Directory" select "Puncta-Count-for-JOBS" as journal
+          
+- Make sure the "Integrated Morphometry- Load State" step is calling the "IMA_File.IMA"
+  
   3. Run journal
